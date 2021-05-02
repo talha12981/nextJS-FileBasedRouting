@@ -1,9 +1,8 @@
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 const Bills = () => {
-
-    const router = useRouter();
     const clickHandler = () => {
+        const router = useRouter();
         router.push('/bills/4');
         // router.replace('/bills/4'); ypu cannot go back
     }

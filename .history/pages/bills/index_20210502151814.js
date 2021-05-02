@@ -1,12 +1,6 @@
 import Link from 'next/link';
-import { useRouter } from 'next/router';
 const Bills = () => {
-
-    const router = useRouter();
-    const clickHandler = () => {
-        router.push('/bills/4');
-        // router.replace('/bills/4'); ypu cannot go back
-    }
+    const clickHandler = () => { }
     return (
         <div>
             <h1>Bills Page</h1>
@@ -24,7 +18,7 @@ const Bills = () => {
                     <Link href="/bills/3">Bill No 3</Link>
                 </li>
             </ul>
-            <button onClick={clickHandler}>Bill No 4</button>
+            <button onClick={ }>Bill No 4</button>
         </div>
     )
 }
